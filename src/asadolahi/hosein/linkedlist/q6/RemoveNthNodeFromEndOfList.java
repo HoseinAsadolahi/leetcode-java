@@ -35,7 +35,7 @@ public class RemoveNthNodeFromEndOfList {
             this.val = val;
         }
 
-        ListNode(int val, MiddleOfTheLinkedList.ListNode next) {
+        ListNode(int val, ListNode next) {
             this.val = val;
             this.next = next;
         }
