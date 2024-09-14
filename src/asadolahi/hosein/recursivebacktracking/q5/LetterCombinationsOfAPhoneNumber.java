@@ -19,7 +19,7 @@ public class LetterCombinationsOfAPhoneNumber {
             list.add(temp.toString());
             return;
         }
-        int digit = Integer.parseInt(digits.charAt(step) + "") - 2;
+        int digit = digits.charAt(step) - '0' - 2;
         int n = chars[digit].length;
         for (int i = 0; i < n; i++) {
             temp.append(chars[digit][i]);
